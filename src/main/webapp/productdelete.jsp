@@ -14,7 +14,7 @@
   <div class="nav-links">
     <a href="index.jsp">Home</a>
     <a href="DisplayProductsServlet">Products</a>
-    <a href="productadd.jsp">Add</a>
+    <a href="Productadd.jsp">Add</a>
     <a href="productupdate.jsp">Update</a>
     <a href="productdelete.jsp" class="active">Delete</a>
     <a href="ReportCriteriaServlet">Reports</a>

@@ -30,7 +30,7 @@ public class DeleteProductServlet extends HttpServlet {
                     req.setAttribute("msgType", "error");
                 }
             } catch (NumberFormatException e) {
-                req.setAttribute("message", "❌ Invalid Product ID.");
+                req.setAttribute("message", " Invalid Product ID.");
                 req.setAttribute("msgType", "error");
             }
         }

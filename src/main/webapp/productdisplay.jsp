@@ -23,7 +23,7 @@
   <div class="nav-links">
     <a href="index.jsp">Home</a>
     <a href="DisplayProductsServlet" class="active">Products</a>
-    <a href="productadd.jsp">Add</a>
+    <a href="Productadd.jsp">Add</a>
     <a href="productupdate.jsp">Update</a>
     <a href="productdelete.jsp">Delete</a>
     <a href="ReportCriteriaServlet">Reports</a>
@@ -50,7 +50,7 @@
       <div class="stat-lbl">Inventory Value</div>
     </div>
     <div class="stat-card" style="display:flex; align-items:center;">
-      <a href="productadd.jsp" class="btn btn-primary">+ Add Product</a>
+      <a href="Productadd.jsp" class="btn btn-primary">+ Add Product</a>
     </div>
   </div>
 
@@ -62,7 +62,7 @@
     <% if (products == null || products.isEmpty()) { %>
       <div class="empty">
         <div class="empty-icon">📭</div>
-        <p>No products found. <a href="productadd.jsp" style="color:var(--accent)">Add one now</a>.</p>
+        <p>No products found. <a href="Productadd.jsp" style="color:var(--accent)">Add one now</a>.</p>
       </div>
     <% } else { %>
       <div class="table-wrap">

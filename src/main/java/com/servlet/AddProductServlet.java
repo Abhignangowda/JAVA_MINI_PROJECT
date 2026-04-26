@@ -37,13 +37,13 @@ public class AddProductServlet extends HttpServlet {
             req.setAttribute("msgType", "error");
         }
 
-        req.getRequestDispatcher("productadd.jsp").forward(req, resp);
+        req.getRequestDispatcher("Productadd.jsp").forward(req, resp);
     }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-        resp.sendRedirect("productadd.jsp");
+        resp.sendRedirect("Productadd.jsp");
     }
 }
 

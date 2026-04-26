@@ -30,7 +30,7 @@
   <div class="nav-links">
     <a href="index.jsp" class="active">Home</a>
     <a href="DisplayProductsServlet">Products</a>
-    <a href="productadd.jsp">Add</a>
+    <a href="Productadd.jsp">Add</a>
     <a href="productupdate.jsp">Update</a>
     <a href="productdelete.jsp">Delete</a>
     <a href="ReportCriteriaServlet">Reports</a>
@@ -49,7 +49,7 @@
       <div class="label">View Products</div>
       <div class="desc">Browse the full product catalogue</div>
     </a>
-    <a href="productadd.jsp" class="menu-card">
+    <a href="Productadd.jsp" class="menu-card">
       <div class="icon">➕</div>
       <div class="label">Add Product</div>
       <div class="desc">Register a new product</div>
